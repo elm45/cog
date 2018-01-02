@@ -168,7 +168,9 @@ var options = {
       path.relative(paths.styleGuide, paths.styles.destination + 'styles.css'),
       path.relative(paths.styleGuide, paths.styles.destination + 'style-guide-only/kss-only.css')
     ],
-    js: [],
+    js: [
+      path.relative(paths.styleGuide, paths.styles.source + 'style-guide-only/kss-only.js')
+    ],
     homepage: 'style-guide-only/homepage.md',
     title: 'Living Style Guide'
   },
